@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/core" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/item-service" />
@@ -18,6 +19,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/item-service" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
+        <option name="gradleJvm" value="openjdk-22" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/jpashop" />
           </set>
         </option>
       </GradleProjectSettings>
