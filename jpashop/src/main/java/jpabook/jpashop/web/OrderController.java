@@ -37,7 +37,7 @@ public class OrderController {
         orderService.order(memberId, itemId, count);
         return "redirect:/orders";
     }
-    @GetMapping(value = "/orders")
+    @GetMapping( "/orders")
     public String orderList(@ModelAttribute("orderSearch") OrderSearch orderSearch, Model model) {
         List<Order> orders = orderService.findOrders(orderSearch);
         model.addAttribute("orders", orders);

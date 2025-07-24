@@ -27,7 +27,11 @@ public class OrderRepository {
     }
 
     public List<Order> findAll(OrderSearch orderSearch) {
-        String jpql = "SELECT o FROM Order o join o.member m";
+        String jpql = "SELECT DISTINCT o FROM Order o" +
+                " JOIN FETCH o.member m" +
+                " JOIN FETCH o.delivery d" +
+                " JOIN FETCH o.orderItems oi" +
+                " JOIN FETCH oi.item i";
         boolean isFirstCondition = true;
 
         if (orderSearch.getOrderStatus() != null) {
