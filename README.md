@@ -10,3 +10,4 @@
   + [상품 관리 예제 만들기](https://github.com/tjgustjr30723/inflearnSpring/tree/main/item-service)
 + JPA와 실무 완전 정복
   + [실전! 스프링 부트와 JPA 활용 1 - 웹 애플리케이션 개발](https://github.com/tjgustjr30723/inflearnSpring/tree/main/jpashop)
+  + [실전! 스프링 부트와 JPA 활용 2 - 웹 애플리케이션 개발](https://github.com/tjgustjr30723/inflearnSpring/tree/main/jpashop)
