@@ -1,7 +1,8 @@
-package jpabook.jpashop.repository;
+package jpabook.jpashop.repository.order.simplequery;
 
 import jakarta.persistence.EntityManager;
 import java.util.List;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 
