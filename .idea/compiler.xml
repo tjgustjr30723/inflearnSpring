@@ -6,23 +6,56 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.40/398c6d2d7c42c96b65e78d2ddc9be0058c163453/lombok-1.18.40.jar" />
         </processorPath>
-        <module name="servlet.main" />
+        <module name="jdbc.main" />
+        <module name="jdbc.test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="core" target="17" />
+      <module name="core.main" target="17" />
+      <module name="core.test" target="17" />
+      <module name="data-jpa" target="17" />
+      <module name="data-jpa.main" target="17" />
+      <module name="data-jpa.test" target="17" />
+      <module name="item-service" target="17" />
+      <module name="item-service.main" target="17" />
+      <module name="item-service.test" target="17" />
+      <module name="jpashop" target="17" />
+      <module name="jpashop.main" target="17" />
+      <module name="jpashop.test" target="17" />
+      <module name="querydsl" target="17" />
+      <module name="querydsl.main" target="17" />
+      <module name="querydsl.test" target="17" />
+      <module name="servlet" target="17" />
+      <module name="servlet.main" target="17" />
+      <module name="servlet.test" target="17" />
+      <module name="springmvc" target="17" />
+      <module name="springmvc.main" target="17" />
+      <module name="springmvc.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="core" options="-parameters" />
       <module name="core.main" options="-parameters" />
       <module name="core.test" options="-parameters" />
+      <module name="data-jpa" options="-parameters" />
+      <module name="data-jpa.main" options="-parameters" />
+      <module name="data-jpa.test" options="-parameters" />
       <module name="item-service" options="-parameters" />
       <module name="item-service.main" options="-parameters" />
       <module name="item-service.test" options="-parameters" />
+      <module name="jdbc" options="-parameters" />
+      <module name="jdbc.main" options="-parameters" />
+      <module name="jdbc.test" options="-parameters" />
       <module name="jpashop" options="-parameters" />
       <module name="jpashop.main" options="-parameters" />
       <module name="jpashop.test" options="-parameters" />
+      <module name="querydsl" options="-parameters" />
+      <module name="querydsl.main" options="-parameters" />
+      <module name="querydsl.test" options="-parameters" />
       <module name="servlet" options="-parameters" />
       <module name="servlet.main" options="-parameters" />
       <module name="servlet.test" options="-parameters" />

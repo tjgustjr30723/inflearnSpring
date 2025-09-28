@@ -4,48 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/core" />
-        <option name="gradleJvm" value="openjdk-22" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/jdbc" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/core" />
-          </set>
-        </option>
-        <option name="resolveExternalAnnotations" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/item-service" />
-        <option name="gradleJvm" value="openjdk-22" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/item-service" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jpashop" />
-        <option name="gradleJvm" value="openjdk-22" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/jpashop" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/servlet" />
-        <option name="gradleJvm" value="openjdk-22" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/servlet" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/springmvc" />
-        <option name="gradleJvm" value="openjdk-22" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/springmvc" />
+            <option value="$PROJECT_DIR$/jdbc" />
           </set>
         </option>
       </GradleProjectSettings>
