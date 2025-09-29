@@ -1,22 +1,19 @@
 package hello.jdbc.repository;
-
 import hello.jdbc.domain.Member;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jdbc.support.JdbcUtils;
-
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.NoSuchElementException;
-
+/**
+ * JDBC - DataSource 사용, JdbcUtils 사용
+ */
 @Slf4j
 public class MemberRepositoryV1 {
-
     private final DataSource dataSource;
-
     public MemberRepositoryV1(DataSource dataSource) {
         this.dataSource = dataSource;
     }
-
     public Member save(Member member) throws SQLException {
         String sql = "insert into member(member_id, money) values(?, ?)";
         Connection con = null;
@@ -104,7 +101,6 @@ public class MemberRepositoryV1 {
             close(con, pstmt, null);
         }
     }
-
     private void close(Connection con, Statement stmt, ResultSet rs) {
         JdbcUtils.closeResultSet(rs);
         JdbcUtils.closeStatement(stmt);
